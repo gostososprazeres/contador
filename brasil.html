@@ -67,13 +67,18 @@ transition: 0.5s;
 color: #770000;  /* cor do link visitado */
 }
 
-.contador{
+.contador{             /* contadorcss */
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
 margin-top:0px;
 background-color: green;
 width: 150px;
+height: 150px
+}
+
+.contador-interno{
+padding: 45px;
 }
 </style>
 
@@ -117,30 +122,29 @@ max-height: 230px;
 
 <body>
 
-<div class="postagens">
-
-
-</div>
-
-
-
+<!--contadorhtml-->
 <div class="contador">
 
+<div class="contador-interno">
+<h1>ttttttt</h1>
   <!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
-<!-- Histats.com  START  (aync)-->
-<script type="text/javascript">var _Hasync= _Hasync|| [];
-_Hasync.push(['Histats.start', '1,4461665,4,132,112,33,00010000']);
-_Hasync.push(['Histats.fasi', '1']);
-_Hasync.push(['Histats.track_hits', '']);
-(function() {
-var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
-hs.src = ('//s10.histats.com/js15_as.js');
-(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
-})();</script>
-<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4461665&101" alt="" border="0"></a></noscript>
-<!-- Histats.com  END  -->
+  <!-- Histats.com  START  (aync)-->
+  <script type="text/javascript">var _Hasync= _Hasync|| [];
+  _Hasync.push(['Histats.start', '1,4461665,4,132,112,33,00010000']);
+  _Hasync.push(['Histats.fasi', '1']);
+  _Hasync.push(['Histats.track_hits', '']);
+  (function() {
+  var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+  hs.src = ('//s10.histats.com/js15_as.js');
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+  })();</script>
+  <noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4461665&101" alt="" border="0"></a></noscript>
+  <!-- Histats.com  END  -->
+
 </div>
 
+</div>
+<!--contadorhtml-->
 
 </body>
 </html>
