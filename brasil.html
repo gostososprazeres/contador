@@ -39,6 +39,10 @@ max-width: 100%;
 min-width: 10%;
 }
 
+.conteudo{
+
+}
+
 .atualizar{           /* atualizarcss */
 display: flex;
 flex-wrap: wrap;
@@ -55,13 +59,13 @@ flex-wrap: wrap;
 justify-content: center;
 margin-top:0px;
 background-color: green;
-width: 350px;
-height: 250px
+width: 320px;
+height: 250px;
+border: 2px solid black;
 }
 
 .contador-interno{
 padding: 12px;
-margin-left: -11px;
 }
 </style>
 
@@ -69,17 +73,26 @@ margin-left: -11px;
 
 <style>
 
+a{
+text-decoration: none;
+
+}
+
 .botao-atualizar {
+display: flex;
+justify-content: center;
 font-family: 'Roboto Slab', serif;    /* 0004 */
 border: none;
 padding:10px;
 cursor: pointer;
-display:inline-block;
-text-decoration: none;
+margin: 10px;
+margin-left: 40px;
 background:#fff500;
 border-radius: 10px;
 color:green;
 height: 50px;
+width: 200px;
+
 
 
 }
@@ -91,12 +104,21 @@ border-radius: 10px;
 transition:1s;
 }
 
+@media (max-width:1024px) {
+.contador {
+}
+}
+
 </style>
 <!--botao-atualizarcss.html -->
 
 
 
 <body>
+
+<!--conteudohtml-->
+<div class="conteudo">
+
 
 <!--contadorhtml-->
 <div class="contador">
@@ -108,7 +130,11 @@ transition:1s;
 
 <a href="https://www.4shared.com/rar/Jpbu4Qypea/Brasil-porn-24-10-2020.html
 " target="_blank"><button class="botao-atualizar" style="font-size:18px"
->atualizar 24/10/2020</button></a>
+>Atualizar 24/10/2020</button></a>
+
+<a href="https://vk.cc/aBrs84
+" target="_blank"><button class="botao-atualizar" style="font-size:18px"
+>Mais paginas</button></a>
 
 </div>
 <!--botao-atualizarhtml.html -->
@@ -117,7 +143,6 @@ transition:1s;
 </div>
 
 <div class="contador-interno">
-
 <!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
 <!-- Histats.com  START  (aync)-->
 <script type="text/javascript">var _Hasync= _Hasync|| [];
@@ -136,6 +161,10 @@ hs.src = ('//s10.histats.com/js15_as.js');
 
 </div>
 <!--contadorhtml-->
+
+
+</div>
+<!--conteudohtml-->
 
 </body>
 </html>
